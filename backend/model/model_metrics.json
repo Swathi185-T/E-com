@@ -1,0 +1,1068 @@
+{
+  "best_model": "Linear Support Vector Machine",
+  "selected_metrics": {
+    "accuracy": 0.9862,
+    "precision": 0.9863,
+    "recall": 0.9862,
+    "f1_score": 0.9862,
+    "training_time_seconds": 0.76
+  },
+  "comparison": {
+    "Logistic Regression": {
+      "accuracy": 0.9832,
+      "precision": 0.9834,
+      "recall": 0.9832,
+      "f1_score": 0.9832,
+      "training_time_seconds": 1.18
+    },
+    "Multinomial Naive Bayes": {
+      "accuracy": 0.9773,
+      "precision": 0.9774,
+      "recall": 0.9773,
+      "f1_score": 0.9773,
+      "training_time_seconds": 0.03
+    },
+    "Linear Support Vector Machine": {
+      "accuracy": 0.9862,
+      "precision": 0.9863,
+      "recall": 0.9862,
+      "f1_score": 0.9862,
+      "training_time_seconds": 0.76
+    },
+    "Random Forest": {
+      "accuracy": 0.9675,
+      "precision": 0.9679,
+      "recall": 0.9675,
+      "f1_score": 0.9673,
+      "training_time_seconds": 0.9
+    }
+  },
+  "detailed_metrics": {
+    "Logistic Regression": {
+      "accuracy": 0.9832,
+      "precision_weighted": 0.9834,
+      "recall_weighted": 0.9832,
+      "f1_weighted": 0.9832,
+      "f1_macro": 0.982,
+      "classification_report": {
+        "Beauty & Personal Care": {
+          "precision": 0.9866666666666667,
+          "recall": 0.9866666666666667,
+          "f1-score": 0.9866666666666667,
+          "support": 150.0
+        },
+        "Books": {
+          "precision": 1.0,
+          "recall": 0.978494623655914,
+          "f1-score": 0.9891304347826086,
+          "support": 93.0
+        },
+        "Electronics": {
+          "precision": 0.9857142857142858,
+          "recall": 1.0,
+          "f1-score": 0.9928057553956835,
+          "support": 138.0
+        },
+        "Fashion": {
+          "precision": 0.9577464788732394,
+          "recall": 0.9927007299270073,
+          "f1-score": 0.974910394265233,
+          "support": 137.0
+        },
+        "Grocery": {
+          "precision": 0.9736842105263158,
+          "recall": 0.9866666666666667,
+          "f1-score": 0.9801324503311258,
+          "support": 150.0
+        },
+        "Home & Kitchen": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 147.0
+        },
+        "Sports & Outdoors": {
+          "precision": 0.9855072463768116,
+          "recall": 0.9444444444444444,
+          "f1-score": 0.9645390070921985,
+          "support": 72.0
+        },
+        "Toys & Games": {
+          "precision": 0.983739837398374,
+          "recall": 0.952755905511811,
+          "f1-score": 0.968,
+          "support": 127.0
+        },
+        "accuracy": 0.9832347140039448,
+        "macro avg": {
+          "precision": 0.9841323406944618,
+          "recall": 0.9802161296090638,
+          "f1-score": 0.9820230885666895,
+          "support": 1014.0
+        },
+        "weighted avg": {
+          "precision": 0.9834161259387343,
+          "recall": 0.9832347140039448,
+          "f1-score": 0.9831969672130484,
+          "support": 1014.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          148,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          91,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          138,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          136,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          148,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          147,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          68,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          3,
+          1,
+          0,
+          1,
+          121
+        ]
+      ]
+    },
+    "Multinomial Naive Bayes": {
+      "accuracy": 0.9773,
+      "precision_weighted": 0.9774,
+      "recall_weighted": 0.9773,
+      "f1_weighted": 0.9773,
+      "f1_macro": 0.975,
+      "classification_report": {
+        "Beauty & Personal Care": {
+          "precision": 0.9673202614379085,
+          "recall": 0.9866666666666667,
+          "f1-score": 0.976897689768977,
+          "support": 150.0
+        },
+        "Books": {
+          "precision": 1.0,
+          "recall": 0.967741935483871,
+          "f1-score": 0.9836065573770492,
+          "support": 93.0
+        },
+        "Electronics": {
+          "precision": 0.9928057553956835,
+          "recall": 1.0,
+          "f1-score": 0.9963898916967509,
+          "support": 138.0
+        },
+        "Fashion": {
+          "precision": 0.9568345323741008,
+          "recall": 0.9708029197080292,
+          "f1-score": 0.9637681159420289,
+          "support": 137.0
+        },
+        "Grocery": {
+          "precision": 0.9733333333333334,
+          "recall": 0.9733333333333334,
+          "f1-score": 0.9733333333333334,
+          "support": 150.0
+        },
+        "Home & Kitchen": {
+          "precision": 0.9932432432432432,
+          "recall": 1.0,
+          "f1-score": 0.9966101694915255,
+          "support": 147.0
+        },
+        "Sports & Outdoors": {
+          "precision": 0.9436619718309859,
+          "recall": 0.9305555555555556,
+          "f1-score": 0.9370629370629371,
+          "support": 72.0
+        },
+        "Toys & Games": {
+          "precision": 0.9838709677419355,
+          "recall": 0.9606299212598425,
+          "f1-score": 0.9721115537848606,
+          "support": 127.0
+        },
+        "accuracy": 0.9773175542406312,
+        "macro avg": {
+          "precision": 0.9763837581696488,
+          "recall": 0.9737162915009123,
+          "f1-score": 0.9749725310571828,
+          "support": 1014.0
+        },
+        "weighted avg": {
+          "precision": 0.9774098580151439,
+          "recall": 0.9773175542406312,
+          "f1-score": 0.9772943727357838,
+          "support": 1014.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          148,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          90,
+          1,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          138,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          133,
+          0,
+          0,
+          3,
+          1
+        ],
+        [
+          4,
+          0,
+          0,
+          0,
+          146,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          147,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          4,
+          0,
+          0,
+          67,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          2,
+          0,
+          1,
+          1,
+          122
+        ]
+      ]
+    },
+    "Linear Support Vector Machine": {
+      "accuracy": 0.9862,
+      "precision_weighted": 0.9863,
+      "recall_weighted": 0.9862,
+      "f1_weighted": 0.9862,
+      "f1_macro": 0.9853,
+      "classification_report": {
+        "Beauty & Personal Care": {
+          "precision": 0.9801324503311258,
+          "recall": 0.9866666666666667,
+          "f1-score": 0.9833887043189369,
+          "support": 150.0
+        },
+        "Books": {
+          "precision": 1.0,
+          "recall": 0.978494623655914,
+          "f1-score": 0.9891304347826086,
+          "support": 93.0
+        },
+        "Electronics": {
+          "precision": 0.9928057553956835,
+          "recall": 1.0,
+          "f1-score": 0.9963898916967509,
+          "support": 138.0
+        },
+        "Fashion": {
+          "precision": 0.9784172661870504,
+          "recall": 0.9927007299270073,
+          "f1-score": 0.9855072463768116,
+          "support": 137.0
+        },
+        "Grocery": {
+          "precision": 0.9736842105263158,
+          "recall": 0.9866666666666667,
+          "f1-score": 0.9801324503311258,
+          "support": 150.0
+        },
+        "Home & Kitchen": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 147.0
+        },
+        "Sports & Outdoors": {
+          "precision": 0.9857142857142858,
+          "recall": 0.9583333333333334,
+          "f1-score": 0.971830985915493,
+          "support": 72.0
+        },
+        "Toys & Games": {
+          "precision": 0.984,
+          "recall": 0.968503937007874,
+          "f1-score": 0.9761904761904762,
+          "support": 127.0
+        },
+        "accuracy": 0.9861932938856016,
+        "macro avg": {
+          "precision": 0.9868442460193076,
+          "recall": 0.9839207446571828,
+          "f1-score": 0.9853212737015253,
+          "support": 1014.0
+        },
+        "weighted avg": {
+          "precision": 0.9862547213138808,
+          "recall": 0.9861932938856016,
+          "f1-score": 0.9861751705149634,
+          "support": 1014.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          148,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          91,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          138,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          136,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          148,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          147,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          69,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          123
+        ]
+      ]
+    },
+    "Random Forest": {
+      "accuracy": 0.9675,
+      "precision_weighted": 0.9679,
+      "recall_weighted": 0.9675,
+      "f1_weighted": 0.9673,
+      "f1_macro": 0.9624,
+      "classification_report": {
+        "Beauty & Personal Care": {
+          "precision": 1.0,
+          "recall": 0.98,
+          "f1-score": 0.98989898989899,
+          "support": 150.0
+        },
+        "Books": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 93.0
+        },
+        "Electronics": {
+          "precision": 0.9507042253521126,
+          "recall": 0.9782608695652174,
+          "f1-score": 0.9642857142857143,
+          "support": 138.0
+        },
+        "Fashion": {
+          "precision": 0.903448275862069,
+          "recall": 0.9562043795620438,
+          "f1-score": 0.9290780141843972,
+          "support": 137.0
+        },
+        "Grocery": {
+          "precision": 0.974025974025974,
+          "recall": 1.0,
+          "f1-score": 0.9868421052631579,
+          "support": 150.0
+        },
+        "Home & Kitchen": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 147.0
+        },
+        "Sports & Outdoors": {
+          "precision": 0.9104477611940298,
+          "recall": 0.8472222222222222,
+          "f1-score": 0.8776978417266187,
+          "support": 72.0
+        },
+        "Toys & Games": {
+          "precision": 0.9831932773109243,
+          "recall": 0.9212598425196851,
+          "f1-score": 0.9512195121951219,
+          "support": 127.0
+        },
+        "accuracy": 0.9674556213017751,
+        "macro avg": {
+          "precision": 0.9652274392181388,
+          "recall": 0.9603684142336462,
+          "f1-score": 0.9623777721942499,
+          "support": 1014.0
+        },
+        "weighted avg": {
+          "precision": 0.9679401163905805,
+          "recall": 0.9674556213017751,
+          "f1-score": 0.9673228830790042,
+          "support": 1014.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          147,
+          0,
+          0,
+          0,
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          93,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          135,
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          2,
+          131,
+          0,
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          150,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          147,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          5,
+          5,
+          0,
+          0,
+          61,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          6,
+          1,
+          0,
+          3,
+          117
+        ]
+      ]
+    }
+  },
+  "categories": [
+    "Beauty & Personal Care",
+    "Books",
+    "Electronics",
+    "Fashion",
+    "Grocery",
+    "Home & Kitchen",
+    "Sports & Outdoors",
+    "Toys & Games"
+  ],
+  "vocabulary_size": 12000,
+  "total_samples": 5066,
+  "train_samples": 4052,
+  "test_samples": 1014,
+  "top_keywords": {
+    "Beauty & Personal Care": [
+      {
+        "word": "skin",
+        "weight": 4.975
+      },
+      {
+        "word": "hair",
+        "weight": 3.451
+      },
+      {
+        "word": "care",
+        "weight": 3.12
+      },
+      {
+        "word": "health medicine",
+        "weight": 2.503
+      },
+      {
+        "word": "medicine",
+        "weight": 2.462
+      },
+      {
+        "word": "fragrance",
+        "weight": 2.341
+      },
+      {
+        "word": "skin care",
+        "weight": 2.018
+      },
+      {
+        "word": "fragrances",
+        "weight": 1.977
+      },
+      {
+        "word": "oil",
+        "weight": 1.917
+      },
+      {
+        "word": "health",
+        "weight": 1.814
+      },
+      {
+        "word": "deos",
+        "weight": 1.75
+      },
+      {
+        "word": "fragrances deos",
+        "weight": 1.75
+      }
+    ],
+    "Books": [
+      {
+        "word": "book",
+        "weight": 5.161
+      },
+      {
+        "word": "edition",
+        "weight": 4.304
+      },
+      {
+        "word": "novel",
+        "weight": 4.113
+      },
+      {
+        "word": "literature",
+        "weight": 4.076
+      },
+      {
+        "word": "novel edition",
+        "weight": 4.002
+      },
+      {
+        "word": "book literature",
+        "weight": 4.002
+      },
+      {
+        "word": "literature novel",
+        "weight": 4.002
+      },
+      {
+        "word": "author",
+        "weight": 3.152
+      },
+      {
+        "word": "review",
+        "weight": 1.879
+      },
+      {
+        "word": "books",
+        "weight": 1.679
+      },
+      {
+        "word": "world",
+        "weight": 1.347
+      },
+      {
+        "word": "game",
+        "weight": 1.055
+      }
+    ],
+    "Electronics": [
+      {
+        "word": "mobile",
+        "weight": 2.458
+      },
+      {
+        "word": "battery",
+        "weight": 2.229
+      },
+      {
+        "word": "usb",
+        "weight": 2.103
+      },
+      {
+        "word": "router",
+        "weight": 2.085
+      },
+      {
+        "word": "cover",
+        "weight": 2.001
+      },
+      {
+        "word": "model",
+        "weight": 1.919
+      },
+      {
+        "word": "wireless",
+        "weight": 1.904
+      },
+      {
+        "word": "laptop",
+        "weight": 1.899
+      },
+      {
+        "word": "replacement",
+        "weight": 1.896
+      },
+      {
+        "word": "guarantee free",
+        "weight": 1.75
+      },
+      {
+        "word": "warranty",
+        "weight": 1.717
+      },
+      {
+        "word": "phone",
+        "weight": 1.691
+      }
+    ],
+    "Fashion": [
+      {
+        "word": "boots",
+        "weight": 4.975
+      },
+      {
+        "word": "women",
+        "weight": 3.513
+      },
+      {
+        "word": "casual",
+        "weight": 3.365
+      },
+      {
+        "word": "ring",
+        "weight": 3.067
+      },
+      {
+        "word": "watch",
+        "weight": 2.142
+      },
+      {
+        "word": "dress",
+        "weight": 2.045
+      },
+      {
+        "word": "diamond",
+        "weight": 1.819
+      },
+      {
+        "word": "rs",
+        "weight": 1.798
+      },
+      {
+        "word": "boots buy",
+        "weight": 1.798
+      },
+      {
+        "word": "men",
+        "weight": 1.766
+      },
+      {
+        "word": "sleeve",
+        "weight": 1.754
+      },
+      {
+        "word": "solid",
+        "weight": 1.715
+      }
+    ],
+    "Grocery": [
+      {
+        "word": "taste",
+        "weight": 2.914
+      },
+      {
+        "word": "organic",
+        "weight": 2.678
+      },
+      {
+        "word": "flavour",
+        "weight": 2.262
+      },
+      {
+        "word": "masala",
+        "weight": 2.047
+      },
+      {
+        "word": "rice",
+        "weight": 2.01
+      },
+      {
+        "word": "delicious",
+        "weight": 2.004
+      },
+      {
+        "word": "powder",
+        "weight": 1.717
+      },
+      {
+        "word": "chocolate",
+        "weight": 1.685
+      },
+      {
+        "word": "healthy",
+        "weight": 1.589
+      },
+      {
+        "word": "sugar",
+        "weight": 1.586
+      },
+      {
+        "word": "protein",
+        "weight": 1.528
+      },
+      {
+        "word": "snack",
+        "weight": 1.496
+      }
+    ],
+    "Home & Kitchen": [
+      {
+        "word": "kitchen",
+        "weight": 6.435
+      },
+      {
+        "word": "steel",
+        "weight": 3.133
+      },
+      {
+        "word": "glass",
+        "weight": 2.842
+      },
+      {
+        "word": "accessories",
+        "weight": 2.594
+      },
+      {
+        "word": "storage",
+        "weight": 2.511
+      },
+      {
+        "word": "crockery",
+        "weight": 2.364
+      },
+      {
+        "word": "cutlery",
+        "weight": 2.286
+      },
+      {
+        "word": "kitchen crockery",
+        "weight": 2.127
+      },
+      {
+        "word": "crockery cutlery",
+        "weight": 2.127
+      },
+      {
+        "word": "kitchen storage",
+        "weight": 2.02
+      },
+      {
+        "word": "storage accessories",
+        "weight": 2.016
+      },
+      {
+        "word": "stainless steel",
+        "weight": 1.974
+      }
+    ],
+    "Sports & Outdoors": [
+      {
+        "word": "sports",
+        "weight": 3.248
+      },
+      {
+        "word": "track",
+        "weight": 2.373
+      },
+      {
+        "word": "shoes",
+        "weight": 2.048
+      },
+      {
+        "word": "online flipkart",
+        "weight": 1.722
+      },
+      {
+        "word": "buy online",
+        "weight": 1.722
+      },
+      {
+        "word": "track pants",
+        "weight": 1.707
+      },
+      {
+        "word": "size",
+        "weight": 1.698
+      },
+      {
+        "word": "pants",
+        "weight": 1.628
+      },
+      {
+        "word": "men",
+        "weight": 1.543
+      },
+      {
+        "word": "gym",
+        "weight": 1.486
+      },
+      {
+        "word": "basketball",
+        "weight": 1.463
+      },
+      {
+        "word": "women",
+        "weight": 1.462
+      }
+    ],
+    "Toys & Games": [
+      {
+        "word": "baby",
+        "weight": 4.43
+      },
+      {
+        "word": "pencil",
+        "weight": 3.19
+      },
+      {
+        "word": "pencil box",
+        "weight": 2.806
+      },
+      {
+        "word": "box",
+        "weight": 2.73
+      },
+      {
+        "word": "art",
+        "weight": 2.707
+      },
+      {
+        "word": "baby girl",
+        "weight": 2.382
+      },
+      {
+        "word": "cotton",
+        "weight": 2.093
+      },
+      {
+        "word": "baby boy",
+        "weight": 1.914
+      },
+      {
+        "word": "sticker",
+        "weight": 1.867
+      },
+      {
+        "word": "toys",
+        "weight": 1.562
+      },
+      {
+        "word": "toy",
+        "weight": 1.449
+      },
+      {
+        "word": "multicolor",
+        "weight": 1.408
+      }
+    ]
+  },
+  "trained_at": "2026-11-17 18:25:52",
+  "supports_probabilities": true
+}
